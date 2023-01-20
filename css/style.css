@@ -1,0 +1,636 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+*body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.navbar-toggler{
+	background: #08c !important;
+
+}
+.navbar-toggler .fa{
+	color: #fff;
+}
+
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*global css code for title*/
+
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+
+}
+
+.title h4{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #008ed6;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px 0px 5px;
+
+}
+.title h1{
+	ffont-size: 55px;
+	line-height: 65px;
+	font-weight: 600;
+	color: #000;
+	margin: 0px 0px 15px;
+	letter-spacing: 1px;
+
+}
+/*header css start*/
+.header .navbar-wrapper{
+	width: 100%;
+	margin-top: 0px;
+	position: relative;
+	z-index: 15;
+
+}
+.header .isStuck{
+	left: 0px;
+	width: 100%;
+	background: rgba(0, 0, 0, 1.0);
+}
+
+.header{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+	color: #fff;
+	font-size: 16px;
+	font-family: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0px 0px 0ox 20px;
+
+
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+
+
+/*header css end/	
+
+/*banner css start*/
+.banner{
+	width: 100%;
+	padding: 120px 0px;
+}
+.banner h4{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #008ed6;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px 0px 15px;
+
+}
+.banner h1{
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 0px 15px;
+	letter-spacing: 1px;
+	
+}
+.banner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #999999;
+	margin: 0px 0px 15px;
+	letter-spacing: 1px;
+	
+}
+.banner .double-btn{
+	width: 100%;
+	padding: 40px 0px 0px;
+	
+}
+.banner .double-btn .btn-primary{
+	padding: 15px 30px;
+	margin: 0px 20px 0px 0px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+	border-radius: 5px;
+	
+}
+.banner .double-btn .btn-primary:hover{
+	color: #008ed6;
+	
+	background: transparent;
+	border: 1px solid #008ed6;
+	
+	
+}
+.banner .double-btn .btn-primary:focus{
+	color: #008ed6;
+	
+	background: transparent;
+	border: 1px solid #008ed6;
+	
+}
+.banner .double-btn .btn-info{
+	padding: 15px 30px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	background: transparent;
+	border: 1px solid #999;
+	transition: 1s;
+	border-radius: 5px;
+	
+}
+.banner .double-btn .btn-info:hover{
+	color: #fff;
+	
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	
+}
+.banner .double-btn .btn-info:focus{
+	color: #fff;
+	
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+/*banner css end*/
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.feature .title{
+	text-align: center;
+}
+.inner-feature{
+	width: 100%;
+	padding: 40px 30px;
+	text-align: center;
+}
+.inner-feature .icon{
+	width: 90px;
+	height: 90px ;
+	line-height: 90px;
+	text-align: center;
+	border: 1px solid #eee;
+	border-radius: 100%;
+	margin: 0px auto;
+}
+.inner-feature h4{
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+	margin: 20px 0px 5px;
+
+}
+.inner-feature p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #999999;
+	margin: 0px 0px 15px;
+	
+	
+}
+
+/*about-long css start*/
+
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.about-long .title{
+	padding: 45px 0px 10px;
+}
+
+.about-long p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #999999;
+	margin: 0px 0px 15px;
+
+}
+.about-long ul{
+	padding:20px 0px 0px;
+	margin: 0px;
+}
+.about-long ul li{
+	list-style: none;
+	margin: 0px 0px 15px;
+ 	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+}
+.about-long ul li img{
+	width: 14px;
+	height:16px ;
+	margin: 0px 15px 0px 0px;
+
+}
+
+
+
+
+/*about-long css end*/
+
+/*about-short css start*/
+.about-short{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f2f2;
+}
+.about-short .title{
+	margin: 45px 0px 0px;
+
+}
+
+.about-short .title p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #999999;
+	margin: 20px 0px 0px;
+
+}
+
+/*about-short css end*/
+
+/*testimonials css start*/
+
+.testimonials{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/Testimonials.png") center top no-repeat;
+	background-size: cover;
+}
+.testimonials .title{
+	text-align: center;
+	padding: 0px 0px 50px;
+}
+.testimonials .title h1{
+	color: #fff;
+}
+
+.testimonials .owl-carousel .item h4{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	font-style: italic;
+	margin: 0px 0px 40px;
+}
+.testimonials .owl-carousel .item .client-info{
+	width: 100%;
+	padding: 0px 0px 40px;
+
+}
+
+.testimonials .owl-carousel .item .client-info h5{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+    margin: 10px 0px 0px;
+	
+}
+
+.testimonials .owl-carousel .item .client-info p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;	
+}
+
+/*testimonials css end*/
+
+/*eye-catcher css start*/
+
+.eye-catcher{
+	width: 100%;
+	padding: 40px 0px;
+	background: #191919;
+}
+.eye-catcher h5{
+	font-size: 26px ;
+	line-height: 36px;
+	font-weight: 500;
+	color: #fff;
+	margin: 30px 0px;
+}
+.eye-catcher .double-btn{
+	width: 100%;
+	padding: 30px 0px;
+
+	
+}
+.eye-catcher .double-btn .btn-info{
+	padding: 10px 20px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	background: transparent;
+	border: 1px solid #999;
+	transition: 1s;
+	border-radius: 5px;
+	
+}
+.eye-catcher .double-btn .btn-info:hover{
+	color: #fff;
+	
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	
+}
+.eye-catcher .double-btn .btn-info:focus{
+	color: #fff;
+	
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+.eye-catcher .double-btn .btn-primary{
+	padding: 10px 20px;
+	margin: 0px 0px 0px 20px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+	border-radius: 5px;
+	
+}
+.eye-catcher .double-btn .btn-primary:hover{
+	color: #008ed6;
+	
+	background: transparent;
+	border: 1px solid #008ed6;
+	
+	
+}
+.eye-catcher .double-btn .btn-primary:focus{
+	color: #008ed6;
+	
+	background: transparent;
+	border: 1px solid #008ed6;
+	
+}
+/*eye-catcher css end*/
+
+
+/*price css start*/
+.price{
+	width: 100%;
+	padding: 80px 0px;
+}
+.price .title{
+	text-align: center;
+	padding: 0px 0px 80px;
+}
+.price-box{
+	text-align: center;
+	width: 100%;
+	border: 1px solid #eee;
+
+}
+.price-box .price-header{
+	width: 100%;
+	padding: 20px 0px;
+	border-bottom: 1px solid #eee;
+
+}
+.price-box .price-header h4{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px;
+	
+}
+.price-box .main-price{
+	width: 100%;
+	padding: 30px 0px;
+	border-bottom: 1px solid #eee;
+
+}
+.price-box .main-price h1{
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px;
+	
+}
+.price-box .main-price h1 sup{
+	font-size: 30px;
+	top: -0.7em;
+	
+}
+.price-box .main-price p{
+	color: #999;
+	font-size: 20px;
+	margin: -20px 0px 0px ;
+
+	
+}
+.price-box .price-content{
+	width: 100%;
+	padding: 30px;
+
+}
+.price-box .price-content p{
+	color: #999;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0px 0px 30px;
+	
+}
+.price-box .price-content p a{
+	text-decoration: none;
+	
+}
+.price-box .price-content .btn-primary{
+	padding: 10px 20px;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color:  #008ed6;
+	text-transform: uppercase;
+	background: transparent;
+	border: 1px solid #eee;
+	transition: 1s;
+	border-radius: 5px;
+}
+
+.price-box:hover .price-header h4{
+	color: #008ed6;
+	transition: 1s;
+} 
+
+.price-box:hover .main-price{
+	background: #008ed6;
+	transition: 1s;
+}
+.price-box:hover .main-price h1{
+	color: #fff;
+	transition: 1s;
+}
+.price-box:hover .main-price p{
+	color: #fff;
+	transition: 1s;
+}
+.price-box:hover .price-content .btn-primary{
+	color:  #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	transition: 1s;
+}
+
+/*price css end*/
+
+/*contact css start*/
+.contact{
+	width: 100%;
+	padding: 80px 0px  0px;
+	background: #ededed;
+}
+
+.contact .title{
+	text-align: center;
+	padding: 0px 0px 40px;
+	width: 100%;
+}
+.contact .info{
+	width: 100%;
+	text-align: center;
+}
+.contact .info .fa{
+	font-size: 35px;
+	color: #008ed6;
+	margin: 0px 0px 25px;
+}
+.contact .info p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #999;
+}
+.main-form{
+	width: 100%;
+	padding: 50px 60px 20px;
+	background: #15141a;
+	margin: 30px 0px -70px;
+	position: relative;
+	z-index: 1;
+
+}
+.main-form .form-control{
+	font-size: 16px;
+	font-weight: 500;
+	color: #444348;
+	background: transparent;
+	border: 1px solid #444348;
+	padding: 12px;
+	border-radius: 5px;
+
+}
+.main-form .form-control:focus{
+	background: transparent;
+	box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%);
+}
+
+.main-form .btn-primary{
+	padding: 10px 20px;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color:  #008ed6;
+	text-transform: uppercase;
+	background: transparent;
+	border: 1px solid #444348;
+	transition: 1s;
+	border-radius: 5px;
+}
+/*contact css end*/
+
+
+/*footer css start*/
+.footer{
+	width: 100%;
+	padding: 20px 0px;
+	background: #15141a;
+}
+
+.footer p{
+	color: #444348;
+	margin:10px 0px;
+	text-align: center;
+
+}
+.footer span{
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.footer .social-icons{
+	width: 100%;
+	padding: 0px;
+	margin:20px 0px;
+	text-align: center;
+}
+.footer .social-icons li{
+	display: inline-block;
+	list-style: none;
+
+}
+.footer .social-icons li a{
+	display: block;
+	margin: 0px 0px 0px 35px;
+	color: #fff;
+	font-size: 20px;
+}
+/*footer csss end*/
